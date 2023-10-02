@@ -8,6 +8,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--SLATE);
 }
 
 .logo {
@@ -16,7 +17,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.16667;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -45,7 +46,7 @@ header ul.list li a {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -54,8 +55,7 @@ header ul.list li a {
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -76,7 +76,7 @@ ul.list {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07143;
   letter-spacing: 1.12px;
 }
 
@@ -86,10 +86,21 @@ ul.list {
   border: none;
   border-radius: 4px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .hero .order-service-button:hover {
-  color: var(--IRIS);
+  color: var(--SLATE);
+}
+
+.objectives {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 .section-header {
@@ -99,7 +110,7 @@ ul.list {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
