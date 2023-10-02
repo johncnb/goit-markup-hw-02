@@ -4,31 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <a href="#">WEBSTUDIO</a>
+      <a href="#" class="logo"><span>WEB</span>STUDIO</a>
       <nav>
-        <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+        <ul class="list">
+          <li><a href="#" class="nav-link">Studio</a></li>
+          <li>
+            <a href="./portfolio.html" class="nav-link"
+              >Portfolio</a
+            >
+          </li>
+          <li><a href="#" class="nav-link">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <ul class="list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="header-email-telno"
+            >info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+110001111111" class="header-email-telno"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
       </ul>
     </header>
 
     <main>
-      <section>
+      <section class="bg-dark hero">
         <h1>
           Effective Solutions <br />
           for Your Business
         </h1>
-        <button type="button">Order Service</button>
-        <ul>
+        <button type="button" class="order-service-button">
+          Order Service
+        </button>
+        </section>
+        <section>
+        <ul class="list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -62,9 +89,10 @@
           </li>
         </ul>
       </section>
+      </section>
       <section>
-        <h2>What we are doing</h2>
-        <ul>
+        <h2 class="section-header">What We Are Doing</h2>
+        <ul class="list">
           <li>
             <img src="images/desktop.jpg" width="360" alt="desktop computer" />
           </li>
@@ -85,8 +113,8 @@
         </ul>
       </section>
       <section>
-        <h2>Our Team</h2>
-        <ul>
+        <h2 class="section-header">Our Team</h2>
+        <ul class="list">
           <li>
             <img
               src="images/mark-guerrero.jpg"
@@ -126,8 +154,8 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#">WEBSTUDIO</a>
+    <footer class="bg-dark footer">
+      <a href="#" class="logo"><span>WEB</span>STUDIO</a>
       <p>
         Increase the flow of customers and<br />sales for your business with
         digital<br />marketing & growth solutions.
